@@ -1,0 +1,78 @@
+/* ExtractedComponent2.css */
+
+#custom-component-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+#custom-component-2 .header {
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+#custom-component-2 .content {
+  font-size: 1rem;
+  color: #666666;
+}
+
+#custom-component-2 .actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#custom-component-2 .actions .button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#custom-component-2 .actions .button-primary {
+  background-color: #0052cc;
+  color: #ffffff;
+}
+
+#custom-component-2 .actions .button-primary:hover {
+  background-color: #003d99;
+}
+
+#custom-component-2 .actions .button-secondary {
+  background-color: #e0e0e0;
+  color: #333333;
+}
+
+#custom-component-2 .actions .button-secondary:hover {
+  background-color: #c0c0c0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #custom-component-2 {
+    flex-direction: column;
+  }
+
+  #custom-component-2 .actions {
+    flex-direction: column;
+  }
+
+  #custom-component-2 .actions .button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #custom-component-2 .actions .button:last-child {
+    margin-bottom: 0;
+  }
+}
