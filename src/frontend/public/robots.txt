@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /api/
+Sitemap: https://devfusion.example.com/sitemap.xml
